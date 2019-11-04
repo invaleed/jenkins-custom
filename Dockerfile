@@ -8,6 +8,10 @@ RUN /usr/local/bin/install-plugins.sh email-ext
 RUN /usr/local/bin/install-plugins.sh mailer
 RUN /usr/local/bin/install-plugins.sh slack
 
+# Install git
+RUN /usr/local/bin/install-plugins.sh git
+RUN /usr/local/bin/install-plugins.sh bitbucket
+
 # Artifacts
 RUN /usr/local/bin/install-plugins.sh htmlpublisher
 
